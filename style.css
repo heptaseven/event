@@ -1,0 +1,77 @@
+/* Add new styles for admin panel and login page */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e2e1dc;
+  }
+  
+  .admin-container, .login-container {
+    background-color: #373c4f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-container h2, .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b38add;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-group button:hover {
+    background-color: #9a6cbc;
+  }
+  
+  .admin-access {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .admin-access a {
+    color: #b38add;
+    text-decoration: none;
+  }
+  
+  .admin-access a:hover {
+    text-decoration: underline;
+  }
+  .admin-link a {
+    color: #373c4f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .admin-link a:hover {
+    text-decoration: underline;
+  }
+  
